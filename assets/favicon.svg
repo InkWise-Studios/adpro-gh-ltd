@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ADPRO favicon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2f72c9"/>
+      <stop offset="100%" stop-color="#123f86"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0f1718"/>
+  <circle cx="32" cy="32" r="24" fill="url(#g)"/>
+  <path d="M21 45V19h9.5c7.6 0 11.8 4.6 11.8 13.1S38.1 45 30.5 45H21zm9.4-7.3h2.2c4.2 0 6.2-2.3 6.2-6.6s-2-6.6-6.2-6.6h-2.2v13.2z" fill="#fff"/>
+</svg>
