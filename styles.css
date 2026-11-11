@@ -1008,8 +1008,17 @@ textarea {
 }
 
 .square-video-wrapper {
-  max-width: 480px; /* Controls how wide/large the square frame appears */
+  width: 100%;
+  max-width: 420px; /* Perfect size for desktops and tablets */
   margin: 0 auto;
+  padding: 0 16px; /* Adds breathing room on small mobile edges */
+}
+
+/* Make it slightly smaller and even more compact on mobile screens */
+@media (max-width: 680px) {
+  .square-video-wrapper {
+    max-width: 320px; /* Scales down cleanly on phones so it's not too big */
+  }
 }
 
 .square-video-frame {
