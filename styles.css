@@ -994,3 +994,41 @@ textarea {
     min-height: auto;
   }
 }
+
+
+
+
+
+
+/* Square Video Showcase Styles */
+.video-showcase {
+  padding: 80px 20px;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.square-video-wrapper {
+  max-width: 800px; /* Controls how wide/large the square frame appears */
+  margin: 0 auto;
+}
+
+.square-video-frame {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* Forces a strict 1:1 square aspect ratio */
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--light-border);
+  background: #000;
+}
+
+.square-video-frame video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crops and fits the video nicely inside the square without black bars */
+  display: block;
+}
