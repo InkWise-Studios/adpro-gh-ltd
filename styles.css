@@ -1008,7 +1008,7 @@ textarea {
 }
 
 .square-video-wrapper {
-  max-width: 800px; /* Controls how wide/large the square frame appears */
+  max-width: 480px; /* Controls how wide/large the square frame appears */
   margin: 0 auto;
 }
 
