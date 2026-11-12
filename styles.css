@@ -144,15 +144,21 @@ textarea {
   filter: brightness(1.02);
 }
 
-.btn-light {
+.btn-light1 {
   background: var(--teal-deep);
   color: var(--white);
-  width: 140px;
-  font-size: small;
- 
   border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 8px 8px rgba(21, 22, 26, 0.05);
+  box-shadow: 0 8px 18px rgba(21, 22, 26, 0.05);
 }
+
+.btn-light {
+  background: var(--white);
+  color: var(--ink);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 18px rgba(21, 22, 26, 0.05);
+}
+
+
 
 .btn-strong {
   background: linear-gradient(135deg, var(--coral), var(--coral-dark));
